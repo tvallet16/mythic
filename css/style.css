@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+.caracters{
+    flex-wrap: wrap;
+
+}
+
+.caracter{
+    width:45vw;
+    height: 50vh;
+    text-align: center;
+    margin: 2vw;
+    align-items: center;    
+}
+
+.caracterImg{
+    width: 70%;
+    height: 100%;
+}
+
+main>div:nth-child(odd){
+    /* pour que les lignes impaire soit inverser (ecrit par la droite) */
+    flex-direction: row-reverse;
+}
+
+.block{
+    display: block;
+}
+
+.profil{
+    justify-content: center;
+}
+
+#escanor{
+    width: 70vw;
+    height: 70vh;
+
+}

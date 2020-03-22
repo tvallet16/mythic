@@ -1,0 +1,14 @@
+main{
+    display: block;
+}
+
+form{
+    text-align: center;
+    height: 10vh;
+    align-items: center;
+}
+
+.profil-img{
+    text-align: center;
+    height: 30vh;
+}
